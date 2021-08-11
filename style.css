@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #474747;
+}
+
+@media (min-width: 992px){ 
+	.navbar {
+  background-color: #D6D6D6;
+  position: fixed;
+  top: 41px;
+  width: 94.9%;
+	}
+}
+  
+
+body{
+	padding: 40px;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+.shad{
+	box-shadow: 20px 20px 8px #888888;
+	background-color: #D6D6D6;
+}
+.card{
+	
+	margin: 10px
+}
