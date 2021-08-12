@@ -15,72 +15,91 @@
 	<div class="shad">
 	
 		<!--Navbar-->
-		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand" href="#">Louie | Portfolio</a>
+		<nav class="navbar navbar-expand-lg navbar-light mt-2 mb-5 ">
+		  <a class="navbar-brand" href="#"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-		    <div class="navbar-nav">
-		      <a class="nav-link active mr-5" href="#">Home <span class="sr-only">(current)</span></a>
-		      <a class="nav-link mr-5" href="#">About</a>
-		      <a class="nav-link mr-5" href="#">Projects</a>
-		      <a class="nav-link mr-5" href="#">Contacts</a>
+		  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+		    <div class="navbar-nav rounded-pill">
+		      <a class="nav-link mr-5 ml-5" href="#">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-link mr-5 ml-5" href="#about-content">About</a>
+		      <a class="nav-link mr-5 ml-5" href="#projects-content">Projects</a>
+		      <a class="nav-link mr-5 ml-5" href="#contact-content">Contact</a>
 		    </div>
 		  </div>
 		</nav>
 
 		<!--Jumbotron-->
 		<header>
-		<div class="jumbotron mb-5 mt-5">
+		<div class="jumbotron">
 		  <div class="container">
 		  	<div class="row">
-		  		<div class="col-12 col-md-6 col-lg-6 text-center order-2 order-md-1">
+		  		<div class="col-12 col-md-12 col-lg-6 text-center order-2 order-lg-1 pt-5 mt-5">
+		  			
 		  			<h5>Hello,</h5>
 		  			<h1>I am Louie</h1>
-		  			<p>A full-stack web developer</p>
-		  			<a class="btn btn-primary btn-lg" href="#" role="button">About Me</a>
+		  			<p>A web developer</p>
+		  			
+		  			<a class="btn  btn-lg mt-5" href="#about-content" role="button">Know More </a>
 		  		</div>
-		  		<div class="col-12 col-md-6 col-lg-6 text-center order-1 order-md-2">
-		  			<img src="./images/me.png">
+		  		<div class="col-12 col-md-12 col-lg-6 text-center order-1 order-lg-2 ">
+		  			<img src="./images/me.png" class="image-fluid imgheader">
 		  		</div>
 		  	</div>
 		</div>
 		</header>
-		  			
+		  		<!-- <div class="vertical"></div>	 -->
 		   <!--About-->
 
-		<div class="container">
+		<div class="container mt-5 mb-5 about" id="about-content">
 			<div class="row">
-				<div class="col-12 col-12 col-md-12 col-lg-6">
-					<h1><img src="./images/me.png"></h1>
+				<div class="col-12 col-12 col-md-12 col-lg-6 text-center">
+					<div class="d-flex flex-wrap justify-content-center"><img src="./images/about.png" class="image-fluid imgabout"></div>
+					<h5>Louie B. Delos Reyes Jr.<h5>
 				</div>
-				<div class="col-12 col-12 col-md-12 col-lg-6">
+				<div class="col-12 col-12 col-md-12 col-lg-6 text-left">
 					<h1>About</h1>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Animi voluptas dolore ad? Sed facilis mollitia aliquam hic quam eos optio? Nisi, sed atque obcaecati ipsa! Tempora ea iste similique magnam!
+					<p>I’ve always been facinated about technology that all started when I had my first desktop computer when I was in grade school, until I started figuring out how to troubleshoot some of its software and hardware components on my own. Although I got a profession
+					of a licensed civil engineer in first few years of my career, I still pursue my fashion on web developent.
 					</p>
+					<p>I am committed to the quest of solutions that generate sustainable, upgradable and expandable for the best user comfort.
+					</p>
+					
+						<h1>Skills</h1>
+						<h6>Web Development</h6>
+					<div class="d-flex flex-wrap justify-content-center">
+						<img src="./images/logo-bootstrap.png" class="img-fluid">
+						<img src="./images/logo-css3.png" class="img-fluid">
+						<img src="./images/logo-git.png" class="img-fluid" >
+						<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid">
+						<img src="./images/logo-html5.png" class="img-fluid" >
+						<img src="./images/logo-sublime-text-3.png" class="img-fluid">
+					</div>
+
 				</div>
 			</div>
 		</div>
 
 		<!--projects-->
-		<div class="container mt-5">
+		
+		<div class="container mt-5 mb-5 projects" id="projects-content" >
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-4 text-center">
 					<h1>Projects</h1>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Maxime facere dolores magnam debitis esse omnis cupiditate aliquam, in, pariatur sint obcaecati quae voluptatibus exercitationem deserunt? Possimus quaerat adipisci, ducimus! Dolorem.</p>
+					<p>Every project is an opportunity to reflect my ability by providing hardwork for the best output.</p>
 				</div>
-				<div class="col-12 col-md-12 col-lg-8">
+				<div class="col-12 col-md-12 col-lg-8 justify-content-center">
 					<div class="card">
 						<div class="row">
-							<div class="col-12 col-lg-6">
-							  <img src="..." class="card-img-top" alt="...">
+							<div class="col-12 col-lg-6 pt-4">
+							  <img src="./images/capstone-1.png" class="card-img-top img-fluid" alt="...">
 							</div>
 							<div class="col-12 col-lg-6">
 								<div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								    <a href="#" class="btn btn-primary">Go somewhere</a>
+								    <h5 class="card-title">Capstone-1 Project</h5>
+								    <p class="card-text">This project is my first front end web development. While doing this I learned a lot at the same time enjoyed it.</p>
+								    <a href="#" class="btn">Visit Project</a>
 							 	</div>
 							</div>		
 					  	</div>
@@ -92,9 +111,9 @@
 							</div>
 							<div class="col-12 col-lg-6">
 								<div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								    <a href="#" class="btn btn-primary">Go somewhere</a>
+								    <h5 class="card-title">Capstone-2 Project</h5>
+								    <p class="card-text"></p>
+								    <a href="#" class="btn">View Poject</a>
 							 	</div>
 							</div>		
 					  	</div>
@@ -106,9 +125,9 @@
 							</div>
 							<div class="col-12 col-lg-6">
 								<div class="card-body">
-								    <h5 class="card-title">Card title</h5>
-								    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								    <a href="#" class="btn btn-primary">Go somewhere</a>
+								    <h5 class="card-title">Capstone-3 Project</h5>
+								    <p class="card-text"></p>
+								    <a href="#" class="btn">View Project</a>
 							 	</div>
 							</div>		
 					  	</div>
@@ -117,11 +136,12 @@
 			</div>
 		</div>
 
-		<!--contact-->
-		<div class="container mt-5 text-center">
+
+		<!--contacts-->
+		<div class="container mt-5 text-center contact" id="contact-content">
 			<h1>Contact</h1>
 			<div class="row">
-				<div class="col-12 col-md-12 col-lg-4 text-left">
+				<div class="col-12 col-md-12 col-lg-4 text-left p-5">
 					<form>
 					  <div class="form-group">
 					    <label for="exampleFormControlInput1">Full Name</label>
@@ -138,12 +158,17 @@
 					  <div class="form-group">
 					    <label for="exampleFormControlTextarea1">How can I help you?</label>
 					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-					    <button type="button" class="btn btn-primary mt-2">Send</button>
+					    <button type="button" class="btn mt-2 mb-4">Send</button>
 					  </div>
 					</form>
+					<div>
+						<h4>Get in touch</h4>
+						<p>louiedelosreyesjr@gmail.com</p>
+						<p>+63 925 478 9870 </p>
+					</div>
 				</div>
-				<div class="col-12 col-md-12 col-lg-8">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251170.19456138337!2d123.70620615286342!3d10.37907183756954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1628668838107!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<div class="col-12 col-md-12 col-lg-8 p-5">
+					<iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251170.19456138337!2d123.70620615286342!3d10.37907183756954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1628668838107!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
 			</div>
 		</div>
