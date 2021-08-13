@@ -7,7 +7,7 @@
 
 
 body{
-	padding: 85px;
+	padding: 20px;
 
 	font-family: sans-serif;
 	background-color: #B6BBC0;
@@ -15,7 +15,8 @@ body{
 }
 
 .page{
-	box-shadow: 35px 35px 12px #666666;
+	margin: 20px;
+	box-shadow: 20px 20px 12px #666666;
 	background: hsla(203, 12%, 51%, 1);
 
 background: linear-gradient(360deg, hsla(203, 12%, 51%, 1) 0%, hsla(204, 13%, 58%, 1) 0%, hsla(204, 12%, 76%, 1) 63%, hsla(240, 10%, 96%, 1) 100%);
@@ -106,6 +107,8 @@ background: -webkit-linear-gradient(360deg, hsla(203, 12%, 51%, 1) 0%, hsla(204,
 	.form-control{
 		background-color: #99ADBE; 
 	}
+	
+
 
 @media (max-width: 576px) {
 	
@@ -113,6 +116,7 @@ background: -webkit-linear-gradient(360deg, hsla(203, 12%, 51%, 1) 0%, hsla(204,
 			display: none;}
 	.about h5{
 		display: none;}
+	
 }
 
 @media (min-width: 576px) {
@@ -121,7 +125,7 @@ background: -webkit-linear-gradient(360deg, hsla(203, 12%, 51%, 1) 0%, hsla(204,
 			display: none;}
 	.about h5{
 		display: none;}
-  
+	
 }
 
 @media (min-width: 768px){ 
