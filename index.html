@@ -12,23 +12,33 @@
 	<title>Portfolio</title>
 </head>
 <body>
-	<div class="shad">
+	<div class="page">
 	
 		<!--Navbar-->
-		<nav class="navbar navbar-expand-lg navbar-light mt-2 mb-5 ">
-		  <a class="navbar-brand" href="#"></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+		<nav class="navbar navbar-expand-lg navbar-light position-fixed">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-		    <div class="navbar-nav rounded-pill">
-		      <a class="nav-link mr-5 ml-5" href="#">Home <span class="sr-only">(current)</span></a>
-		      <a class="nav-link mr-5 ml-5" href="#about-content">About</a>
-		      <a class="nav-link mr-5 ml-5" href="#projects-content">Projects</a>
-		      <a class="nav-link mr-5 ml-5" href="#contact-content">Contact</a>
-		    </div>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		    <ul class="navbar-nav rounded-pill">
+		      <li class="nav-item">
+		        <a class="nav-link mr-5 ml-5" href="#"><h6>Home</h6></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link mr-5 ml-5" href="#about-content"><h6>About</h6></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link mr-5 ml-5" href="#projects-content"><h6>Projects</h6></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link mr-5 ml-5" href="#contact-content"><h6>Contact</h6></a>
+		      </li>
+		    </ul>
 		  </div>
 		</nav>
+		
+	
 
 		<!--Jumbotron-->
 		<header>
@@ -49,10 +59,10 @@
 		  	</div>
 		</div>
 		</header>
-		  		<!-- <div class="vertical"></div>	 -->
+		  		
 		   <!--About-->
 
-		<div class="container mt-5 mb-5 about" id="about-content">
+		<div class="container about" id="about-content">
 			<div class="row">
 				<div class="col-12 col-12 col-md-12 col-lg-6 text-center">
 					<div class="d-flex flex-wrap justify-content-center"><img src="./images/about.png" class="image-fluid imgabout"></div>
@@ -83,7 +93,7 @@
 
 		<!--projects-->
 		
-		<div class="container mt-5 mb-5 projects" id="projects-content" >
+		<div class="container projects" id="projects-content" >
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-4 text-center">
 					<h1>Projects</h1>
@@ -107,7 +117,7 @@
 					<div class="card">
 						<div class="row">
 							<div class="col-12 col-lg-6">
-							  <img src="..." class="card-img-top" alt="...">
+							  <!-- <img src="..." class="card-img-top" alt="..."> -->
 							</div>
 							<div class="col-12 col-lg-6">
 								<div class="card-body">
@@ -121,7 +131,7 @@
 					<div class="card">
 						<div class="row">
 							<div class="col-12 col-lg-6">
-							  <img src="..." class="card-img-top" alt="...">
+							  <!-- <img src="..." class="card-img-top" alt="..."> -->
 							</div>
 							<div class="col-12 col-lg-6">
 								<div class="card-body">
@@ -138,7 +148,7 @@
 
 
 		<!--contacts-->
-		<div class="container mt-5 text-center contact" id="contact-content">
+		<div class="container  text-center contact" id="contact-content">
 			<h1>Contact</h1>
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-4 text-left p-5">
