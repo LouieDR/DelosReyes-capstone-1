@@ -7,6 +7,7 @@
 
 
 body{
+	
 	padding: 20px;
 
 	font-family: sans-serif;
@@ -15,7 +16,8 @@ body{
 }
 
 .page{
-	margin: 20px;
+	
+	margin: 30px;
 	box-shadow: 20px 20px 12px #666666;
 	background: hsla(203, 12%, 51%, 1);
 
@@ -63,6 +65,8 @@ background: -webkit-linear-gradient(360deg, hsla(203, 12%, 51%, 1) 0%, hsla(204,
 		background: -moz-linear-gradient(360deg, hsla(203, 14%, 46%, 1) 0%, hsla(205, 11%, 68%, 1) 75%, hsla(218, 11%, 85%, 1) 100%);
 
 		background: -webkit-linear-gradient(360deg, hsla(203, 14%, 46%, 1) 0%, hsla(205, 11%, 68%, 1) 75%, hsla(218, 11%, 85%, 1) 100%);
+		
+
 	}
 
 .btn{
@@ -86,6 +90,7 @@ background: -webkit-linear-gradient(360deg, hsla(203, 12%, 51%, 1) 0%, hsla(204,
 
 .imgabout{
 	width: 40%;
+	opacity: 80%;
 
 }
 
